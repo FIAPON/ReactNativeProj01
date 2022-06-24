@@ -6,9 +6,13 @@ import {
 
   class App extends React.Component {
     render() {
+      const teste = "Hello World";
+
+      const testeJSX = <Text> Outro Código </Text>
       return (
         <View style={styles.container}>
-          <Text style={styles.textInfo}> Hello World </Text>
+          <Text style={styles.textInfo}> {teste} </Text>
+          { testeJSX }
         </View>
       )
     }
